@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DOHOU Valérie — Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&family=Syne:wght@700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-logo">Val<span>S</span></a>
+  <ul class="nav-links">
+    <li><a href="index.html" class="active">Accueil</a></li>
+    <li><a href="about.html">À propos</a></li>
+    <li><a href="projects.html">Projets</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <a href="contact.html" class="nav-cta">Me contacter</a>
+  <button class="nav-burger" onclick="toggleMenu()">☰</button>
+</nav>
+
+<!-- ═══ HERO ═══ -->
+<main class="hero-page">
+
+  <div class="hero-inner">
+
+    <!-- LEFT -->
+    <div class="hero-left fade-up">
+      <div class="hero-label">Portfolio — 2026</div>
+      <p class="hero-eyebrow">Voyage au cœur de ma vision :</p>
+      <h1 class="hero-title">
+        L'Univers <span class="accent">Valérie</span>
+      </h1>
+      <p class="hero-role">Data Explorer & Future IA Visualist </p>
+      <p class="hero-desc">
+        <!-- [TEXTE À COMPLÉTER] Copiez ici votre description personnelle -->
+        « Un regard différent et sincère sur le monde, une personnalité entière au service de la création. »
+      </p>
+      <div class="hero-tags">
+        <span class="tag teal">Data Science</span>
+        <span class="tag blue">UI/UX Design</span>
+        <span class="tag indigo">Développement Web</span>
+        <span class="tag blue">Développement assisté par l'IA</span>
+      </div>
+      <div class="hero-btns">
+        <a href="projects.html" class="btn-primary">Voir mes projets</a>
+        <a href="about.html" class="btn-ghost">En savoir plus</a>
+      </div>
+    </div>
+
+    <!-- RIGHT — PHOTO -->
+    <div class="hero-right fade-up">
+      <div class="photo-frame">
+        <div class="photo-label">DOHOU Valérie Sèdjro</div>
+        <!--
+          👉 Pour ajouter votre photo :
+          1. Renommez votre fichier image en "ma-photo.jpg"
+          2. Placez-le dans le même dossier que ce fichier HTML
+          3. Supprimez la ligne "photo-placeholder" si vous voulez
+        -->
+        <img src="Valérie.png" alt="DOHOU Valérie Sèdjro" class="hero-photo"
+              onerror="this.style.display='none'; document.querySelector('.photo-placeholder').style.display='flex';">
+        <div class="photo-badge">
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="scroll-hint fade-up">
+    <span>Scroll</span>
+    <div class="scroll-line"></div>
+  </div>
+
+</main>
+
+<!-- ═══ COMPÉTENCES ═══ -->
+<section class="skills-section">
+  <div class="inner">
+    <div class="section-header fade-up">
+      <span class="section-num">01 — Compétences</span>
+      <h2 class="section-title">Mes compétences</h2>
+      <p class="section-subtitle">
+        <!-- [TEXTE À COMPLÉTER] -->
+        Un ensemble de compétences techniques et créatives cultivées avec curiosité et passion.
+      </p>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="skills-grid">
+
+      <div class="skill-card fade-up">
+        <div class="skill-icon">🤖</div>
+        <div class="skill-name">Développement assisté par IA</div>
+        <div class="skill-level lvl-pro">Presque Pro</div>
+        <div class="skill-bar"><div class="skill-fill green" data-width="88%"></div></div>
+      </div>
+
+      <div class="skill-card fade-up">
+        <div class="skill-icon">🌐</div>
+        <div class="skill-name">HTML / CSS</div>
+        <div class="skill-level lvl-inter">Intermédiaire</div>
+        <div class="skill-bar"><div class="skill-fill" data-width="70%"></div></div>
+      </div>
+
+      <div class="skill-card fade-up">
+        <div class="skill-icon">🐍</div>
+        <div class="skill-name">Python</div>
+        <div class="skill-level lvl-inter">Intermédiaire</div>
+        <div class="skill-bar"><div class="skill-fill blue" data-width="65%"></div></div>
+      </div>
+
+      <div class="skill-card fade-up">
+        <div class="skill-icon">📊</div>
+        <div class="skill-name">SQL</div>
+        <div class="skill-level lvl-inter">Intermédiaire</div>
+        <div class="skill-bar"><div class="skill-fill blue" data-width="60%"></div></div>
+      </div>
+
+      <div class="skill-card fade-up">
+        <div class="skill-icon">📱</div>
+        <div class="skill-name">Flutter</div>
+        <div class="skill-level lvl-inter">Intermédiaire</div>
+        <div class="skill-bar"><div class="skill-fill purple" data-width="60%"></div></div>
+      </div>
+
+      <div class="skill-card fade-up">
+        <div class="skill-icon">📈</div>
+        <div class="skill-name">Excel</div>
+        <div class="skill-level lvl-inter">Intermédiaire</div>
+        <div class="skill-bar"><div class="skill-fill green" data-width="62%"></div></div>
+      </div>
+
+      <div class="skill-card fade-up">
+        <div class="skill-icon">🎨</div>
+        <div class="skill-name">Figma / Graphisme</div>
+        <div class="skill-level lvl-inter">Intermédiaire</div>
+        <div class="skill-bar"><div class="skill-fill purple" data-width="58%"></div></div>
+      </div>
+
+      <div class="skill-card fade-up">
+        <div class="skill-icon">📐</div>
+        <div class="skill-name">UML / Merise</div>
+        <div class="skill-level lvl-inter">Intermédiaire</div>
+        <div class="skill-bar"><div class="skill-fill blue" data-width="65%"></div></div>
+      </div>
+
+      <div class="skill-card fade-up">
+        <div class="skill-icon">☕</div>
+        <div class="skill-name">Java</div>
+        <div class="skill-level lvl-debut">Débutante</div>
+        <div class="skill-bar"><div class="skill-fill orange" data-width="30%"></div></div>
+      </div>
+
+      <div class="skill-card fade-up">
+        <div class="skill-icon">🐘</div>
+        <div class="skill-name">PHP</div>
+        <div class="skill-level lvl-debut">Débutante</div>
+        <div class="skill-bar"><div class="skill-fill orange" data-width="30%"></div></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══ PROCESSUS DE TRAVAIL ═══ -->
+<section class="process-section">
+  <div class="inner">
+    <div class="section-header fade-up">
+      <span class="section-num">02 — Processus</span>
+      <h2 class="section-title">Mon processus de travail</h2>
+      <p class="section-subtitle">
+        <!-- [TEXTE À COMPLÉTER] -->
+        « "Je construis mon parcours sur deux piliers : l'intégrité envers moi-même et la résonance avec mes collaborateurs. Mon monde intérieur est riche, mais il est toujours tourné vers l'autre. Je privilégie la qualité des échanges à la quantité de tâches. Pour moi, réussir un projet, c'est s'assurer qu'il reflète une vérité, qu'il soit utile et qu'il ait été porté par une énergie authentique." »
+      </p>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="process-steps">
+
+      <div class="process-step fade-up">
+        <div class="step-num">01</div>
+        <div class="step-title">Explorer</div>
+        <div class="step-text">
+          <!-- [TEXTE À COMPLÉTER] -->
+          Écouter et comprendre en profondeur pour identifier les enjeux réels, là où le projet rencontre sa propre vérité.
+        </div>
+      </div>
+
+      <div class="process-step fade-up">
+        <div class="step-num">02</div>
+        <div class="step-title">Structurer</div>
+        <div class="step-text">
+          <!-- [TEXTE À COMPLÉTER] -->
+          Bâtir une architecture claire qui respecte l'intégrité de l'idée tout en favorisant la résonance avec l'utilisateur
+        </div>
+      </div>
+
+      <div class="process-step fade-up">
+        <div class="step-num">03</div>
+        <div class="step-title">Créer</div>
+        <div class="step-text">
+          <!-- [TEXTE À COMPLÉTER] -->
+          Donner vie aux concepts avec soin, en veillant à ce que chaque détail soit porté par une énergie authentique et utile.
+        </div>
+      </div>
+
+      <div class="process-step fade-up">
+        <div class="step-num">04</div>
+        <div class="step-title">Livrer</div>
+        <div class="step-text">
+          <!-- [TEXTE À COMPLÉTER] -->
+          Partager un résultat qui reflète une vérité, qui soit utile et porté par une énergie authentique.
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div>© 2026 <span class="teal">DOHOU Valérie Sèdjro</span></div>
+  <div>
+    <a href="contact.html">Contact</a> &nbsp;·&nbsp;
+    <a href="projects.html">Projets</a> &nbsp;·&nbsp;
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>

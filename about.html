@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>À propos — DOHOU Valérie</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&family=Syne:wght@700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-logo">Val<span>S</span></a>
+  <ul class="nav-links">
+    <li><a href="index.html">Accueil</a></li>
+    <li><a href="about.html" class="active">À propos</a></li>
+    <li><a href="projects.html">Projets</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <a href="contact.html" class="nav-cta">Me contacter</a>
+  <button class="nav-burger" onclick="toggleMenu()">☰</button>
+</nav>
+
+<main class="inner-page">
+  <div class="page-inner">
+
+    <div class="section-header fade-up">
+      <span class="section-num">01 — À propos</span>
+      <h1 class="section-title">À propos de moi</h1>
+      <div class="section-line"></div>
+    </div>
+
+    <!-- BLOC 1 : PHOTO + MINI TEXTE CÔTE À CÔTE -->
+    <div class="about-grid fade-up" style="margin-bottom: 80px;">
+
+      <!-- PHOTO -->
+      <div class="about-photo-block">
+        <!--
+          👉 Pour ajouter votre photo :
+          Renommez votre fichier "ma-photo.jpg" et placez-le dans le dossier.
+        -->
+        <img src="Valérie.png" alt="DOHOU Valérie Sèdjro" class="about-photo"
+             onerror="this.style.display='none'; document.querySelector('.about-photo-placeholder').style.display='flex';">
+        <div class="about-photo-caption">DOHOU Valérie Sèdjro</div>
+      </div>
+
+      <!-- MINI PARAGRAPHE -->
+      <div class="about-mini">
+        <p>
+          <!-- [TEXTE À COMPLÉTER] — Mini présentation à côté de la photo -->
+          Je suis <strong>DOHOU Valérie Sèdjro</strong>, étudiante en
+          Systèmes Informatiques et Logiciels au Bénin. En tant qu'<strong>INFP</strong>,
+          je ne cherche pas seulement à accomplir des tâches — je cherche à ce qu'elles
+          résonnent avec mes convictions.
+        </p>
+        <p>
+          Cette passion m'amène naturellement vers l'<strong>analyse de données</strong> :
+          j'aime explorer les données comme on explore un territoire inconnu. Chaque dataset
+          raconte une histoire, et je veux être celle qui la révèle avec <strong>élégance visuelle</strong>.
+        </p>
+        <p>
+          Mon objectif : la <strong>data visualisation appliquée à l'IA</strong> — là où
+          la rigueur technique rencontre la beauté de la représentation.
+        </p>
+
+        <blockquote class="about-quote">
+          <!-- [TEXTE À COMPLÉTER] -->
+          « Dans mon univers, la rigueur de l’analyste et l’intuition de l’exploratrice ne font qu’un : elles me permettent de bâtir des solutions qui sont non seulement fonctionnelles, mais profondément humaines.»
+        </blockquote>
+      </div>
+
+    </div>
+
+    <!-- INFOS RAPIDES -->
+    <div class="info-grid fade-up" style="margin-bottom: 80px;">
+      <div class="info-row">
+        <div class="info-key">Nom complet</div>
+        <div class="info-val">DOHOU Valérie Sèdjro</div>
+      </div>
+      <div class="info-row">
+        <div class="info-key">Formation actuelle</div>
+        <div class="info-val">Systèmes Informatiques & Logiciels</div>
+      </div>
+      <div class="info-row">
+        <div class="info-key">Profil MBTI</div>
+        <div class="info-val"><span class="highlight">INFP</span> — L'idéaliste curieuse</div>
+      </div>
+      <div class="info-row">
+        <div class="info-key">Objectif</div>
+        <div class="info-val"><span class="highlight">Data Visualisation × IA</span></div>
+      </div>
+      <div class="info-row">
+        <div class="info-key">Langues</div>
+        <div class="info-val">Français · Anglais (technique)</div>
+      </div>
+      <div class="info-row">
+        <div class="info-key">Intérêts</div>
+        <div class="info-val">Exploration · Design · IA Générative</div>
+      </div>
+      <div class="info-row">
+        <div class="info-key">Disponibilité</div>
+        <div class="info-val"><span class="highlight">Ouverte aux collaborations</span></div>
+      </div>
+    </div>
+
+    <!-- BLOC 2 : TEXTE PLUS LONG EN BAS -->
+    <div class="about-text2 fade-up">
+      <h3>Mon univers intérieur</h3>
+      <p>
+        <!-- [TEXTE À COMPLÉTER] — Grand texte libre sur vous -->
+        Mon monde intérieur est riche, mais ce
+        qui me motive profondément, c'est de le partager à travers des créations qui
+        ont du sens. Que ce soit à travers la structure rigoureuse de SQL, la logique de Mérise/UML ou l’étude des comportements en UI/UX, je cherche à déchiffrer les schémas cachés pour en extraire du sens 
+      </p>
+      <p>
+        <!-- [TEXTE À COMPLÉTER] -->
+        Pour moi, réussir un projet, c'est s'assurer qu'il reflète une vérité, qu'il
+        soit utile et qu'il ait été porté par une énergie authentique. Je ne mesure pas
+        ma valeur à la quantité de tâches accomplies, mais à la profondeur de chaque
+        expérience vécue.
+      </p>
+      <p>
+        <!-- [TEXTE À COMPLÉTER] -->
+        Explorer le monde, c’est aussi savoir s’adapter et pivoter. Ma nature entière me permet de m’investir avec ferveur dans ce que j’entreprends, transformant la technique en un outil d’expression personnelle. Dans mon univers, la rigueur de l’analyste et l’intuition de l’exploratrice ne font qu’un : elles me permettent de bâtir des solutions qui sont non seulement fonctionnelles, mais profondément humaines. 
+      </p>
+    </div>
+
+  </div>
+</main>
+
+<footer>
+  <div>© 2026 <span class="teal">DOHOU Valérie Sèdjro</span></div>
+  <div>
+    <a href="contact.html">Contact</a> &nbsp;·&nbsp;
+    <a href="projects.html">Projets</a> &nbsp;·&nbsp;
+      Bénin 
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>

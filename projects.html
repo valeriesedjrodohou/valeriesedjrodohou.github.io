@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Expériences — DOHOU Valérie</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&family=Syne:wght@700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-logo">Val<span>S</span></a>
+  <ul class="nav-links">
+    <li><a href="index.html">Accueil</a></li>
+    <li><a href="about.html">À propos</a></li>
+    <li><a href="projects.html" class="active">Projets</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <a href="contact.html" class="nav-cta">Me contacter</a>
+  <button class="nav-burger" onclick="toggleMenu()">☰</button>
+</nav>
+
+<main class="inner-page">
+  <div class="page-inner">
+
+    <div class="section-header fade-up">
+      <span class="section-num">01 — Parcours</span>
+      <h1 class="section-title">Une partie de mes expériences</h1>
+      <p class="section-subtitle">
+        « Un aperçu de mon parcours à travers un ensemble de réalisations universitaires et personnelles. Une ingénierie logicielle guidée par la logique et propulsée par l'Intelligence Artificielle Générative. »
+      </p>
+      <div class="section-line"></div>
+    </div>
+
+    <div style="background: rgba(var(--teal-rgb), 0.08); border-left: 4px solid var(--teal); padding: 24px; border-radius: 8px; margin-bottom: 48px;" class="fade-up">
+      <h4 style="margin: 0 0 8px 0; font-family: 'Syne', sans-serif; color: var(--text1); font-size: 1.1rem;">🤖 Développement augmenté par l'IA</h4>
+      <p style="margin: 0; font-size: 0.95rem; color: var(--text2); line-height: 1.6;">
+        Passionnée par l'IA générative, j'ai développé une expertise pointue dans l'utilisation des outils de développement assisté par l'intelligence artificielle. Je me positionne aujourd'hui comme une développeuse hautement performante lorsqu'il s'agit de guider les modèles : l'IA agit comme un accélérateur pour optimiser mes structures algorithmiques, nettoyer mon code et propulser mes phases de prototypage vers l'excellence.
+      </p>
+    </div>
+
+    <div class="projects-grid">
+
+      <div class="project-card fade-up">
+        <div class="project-num">Projet Personnel</div>
+        <h3 class="project-title">AfricanPresidents — Jeu Mobile</h3>
+        <p class="project-desc">
+          Application mobile interactive et culturelle centrée sur l'histoire des présidents africains. Entièrement disponible sur mon GitHub, ce projet démontre mon autonomie technique et ma capacité à concevoir une logique de jeu complète ainsi qu'une gestion d'états fluide sous Flutter.
+        </p>
+        <div class="project-tech">
+          <span class="tech-badge teal">Flutter</span>
+          <span class="tech-badge blue">Dart</span>
+          <span class="tech-badge indigo">GitHub</span>
+        </div>
+      </div>
+
+      <div class="project-card fade-up">
+        <div class="project-num">Projet Universitaire & Personnel</div>
+        <h3 class="project-title">Gestion des Salles de Réunion</h3>
+        <p class="project-desc">
+          Système complet de réservation et de management d'espaces professionnels conçu initialement avec une interface utilisateur en Java Swing. Afin de moderniser l'expérience utilisateur et de migrer vers un écosystème mobile agile, j'initie actuellement sa refonte totale sous Flutter.
+        </p>
+        <div class="project-tech">
+          <span class="tech-badge teal">Java Swing</span>
+          <span class="tech-badge blue">PostegreSQL</span>
+          <span class="tech-badge indigo">Flutter (Refonte)</span>
+        </div>
+      </div>
+
+      <div class="project-card fade-up">
+        <div class="project-num">Projet Transversal</div>
+        <h3 class="project-title">Système de Gestion des Notes & Système de Paiement de Scolarités</h3>
+        <p class="project-desc">
+          Modélisation rigoureuse et implémentation de la base de données relationnelle <code>gestions_notes_etudiants</code>. Conception de l'architecture backend et de la logique métier pour assurer le calcul des performances académiques et le suivi sécurisé des paiements de scolarité.
+        </p>
+        <div class="project-tech">
+          <span class="tech-badge teal">MySQL</span>
+          <span class="tech-badge blue">MySQL</span>
+          <span class="tech-badge green">UML / Merise</span>
+        </div>
+      </div>
+
+      <div class="project-card fade-up">
+        <div class="project-num">Projet Universitaire</div>
+        <h3 class="project-title">Gestion des Mémoires Soutenus</h3>
+        <p class="project-desc">
+          Étude conceptuelle, spécification des besoins et modélisation de données (MCD/MLD) pour une plateforme universitaire dédiée à l'archivage numérique, la classification et la consultation simplifiée des thèses et mémoires après soutenance.
+        </p>
+        <div class="project-tech">
+          <span class="tech-badge teal">Conception BD</span>
+          <span class="tech-badge blue">Architecture</span>
+          <span class="tech-badge indigo">UML</span>
+        </div>
+      </div>
+
+      <div class="project-card fade-up">
+        <div class="project-num">Projet Personnel</div>
+        <h3 class="project-title">UI/UX Design & Prototypage</h3>
+        <p class="project-desc">
+          La conception d'interface est le point de rencontre entre mon intuition créative et les besoins réels de l'utilisateur. J'utilise Figma et Balsamiq pour bâtir des parcours utilisateurs fluides, ergonomiques et des maquettes où chaque choix graphique a une raison d'être.
+        </p>
+        <div class="project-tech">
+          <span class="tech-badge teal">Figma</span>
+          <span class="tech-badge blue">Balsamiq</span>
+          <span class="tech-badge indigo">Design d'interface</span>
+        </div>
+      </div>
+
+      <div class="project-card project-coming fade-up">
+        <div class="project-num">Objectif</div>
+        <h3 class="project-title" style="color:var(--text3)">Data Visualisation × IA</h3>
+        <p class="project-desc">
+          Ma destination finale : fusionner le développement logiciel avec l'analyse de données en créant des dashboards visuels et interactifs pour rendre les modèles d'intelligence artificielle limpides, transparents et percutants.
+          <em style="color:var(--teal)">En cours de spécialisation...</em>
+        </p>
+        <div class="project-tech">
+          <span class="tech-badge">Python</span>
+          <span class="tech-badge">Pandas</span>
+          <span class="tech-badge">Data Viz</span>
+          <span class="tech-badge teal">IA Générative</span>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="illustrations-section">
+
+      <div class="section-header fade-up" style="margin-top: 100px;">
+        <span class="section-num">02 — Galerie</span>
+        <h2 class="section-title">Quelques illustrations</h2>
+        <p class="section-subtitle">
+          « Rendu visuel et captures d'écran de mes applications en action, de mes maquettes d'interface et de mes architectures de données. »
+        </p>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="illus-grid">
+
+        <div class="illus-card fade-up">
+          <img src="image4.png" alt="Capture d'écran du jeu AfricanPresidents" class="illus-img"
+               onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <div class="illus-placeholder" style="display:none">📱</div>
+          <div class="illus-info">
+            <div class="illus-name">Jeu AfricanPresidents — Interface Mobile</div>
+            <div class="illus-tag-row">
+              <span class="tech-badge teal">Flutter</span>
+              <span class="tech-badge">UI Mobile</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="illus-card fade-up">
+          <img src="image6.png" alt="Interface du Gestionnaire de Salles" class="illus-img"
+               onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <div class="illus-info">
+            <div class="illus-name">Gestion des Salles — UI App</div>
+            <div class="illus-tag-row">
+              <span class="tech-badge blue">Java Swing</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="illus-card fade-up">
+          <img src="image8.png" alt="Modèle de Base de Données Relational" class="illus-img"
+               onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          
+          <div class="illus-info">
+            <div class="illus-name">Schémas Relationnels & Modèles UML</div>
+            <div class="illus-tag-row">
+              <span class="tech-badge indigo">MySQL / UML</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="illus-card fade-up">
+          <img src="image5.png" alt="Rendu de Maquettes d'interface" class="illus-img"
+               onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <div class="illus-info">
+            <div class="illus-name">Prototypes Haute Fidélité</div>
+            <div class="illus-tag-row">
+              <span class="tech-badge">Figma</span>
+              <span class="tech-badge">UI/UX</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="illus-card fade-up">
+          <img src="image9.png" alt="Gestions notes etudiants" class="illus-img"
+               onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <div class="illus-info">
+            <div class="illus-name">Gestion des Notes des Étudiants en Web</div>
+            <div class="illus-tag-row">
+              <span class="tech-badge">PHP</span>
+              <span class="tech-badge">MySQL</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</main>
+
+<footer>
+  <div>© 2026 <span class="teal">DOHOU Valérie Sèdjro</span></div>
+  <div>
+    <a href="about.html">À propos</a> &nbsp;·&nbsp;
+    <a href="projects.html">Projets</a> &nbsp;·&nbsp;
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
